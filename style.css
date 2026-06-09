@@ -263,4 +263,13 @@ button:hover {
   button {
     width: 100%;
   }
+  @media (max-width: 768px) {
+    body{
+        background:red !important;
+    }
+
+    .container{
+        grid-template-columns:1fr !important;
+    }
+}
 }

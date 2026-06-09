@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+
+<body class="center">
+
+<div class="box">
+<h2>Register</h2>
+
+<form onsubmit="return registerUser()">
+
+<input type="text" id="name" placeholder="Username" required>
+<input type="password" id="pass" placeholder="Password" required minlength="4">
+<input type="email" id="email" placeholder="Enter Email" required>
+<input type="tel" id="phone" placeholder="Enter Phone Number" pattern="[0-9]{10}" required>
+<textarea id="address" placeholder="Enter Address" required></textarea>
+<button type="submit">Register</button>
+
+</form>
+
+<p>Already user?</p>
+<a href="index.html" style="color: aqua;">Login</a>
+
+</div>
+
+</body>
+</html>
